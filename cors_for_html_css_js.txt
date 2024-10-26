@@ -1,0 +1,27 @@
+
+
+
+
+When different frontend and backend servers are running on different ports, domains, or protocols (such as HTTP and HTTPS), 
+web browsers enforce Cross-Origin Resource Sharing (CORS) policies for security reasons.
+
+The resulting CORS errors are caused by the browser itself
+neither the backend nor the frontend server is responsible for these errors. 
+
+
+To resolve this issue during local development, using a browser extension can be a best solution but it is not safe , turf it off , when using web browser for personal use other than developement.
+
+However, when developing and  hosting both frontend and backend applications, proper CORS configuration is necessary. 
+We will explore this configuration in detail later. 
+For now, while working with HTML, CSS, and JavaScript, leveraging a browser extension can facilitate smoother local development.
+
+
+the best solution is to use cors solver extension , but not safe , but we can use 
+
+link of extension ====> https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
+
+
+
+
+
+how to solve cors error without using extension
